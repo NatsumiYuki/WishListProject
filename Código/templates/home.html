@@ -20,7 +20,7 @@
         <div class="logo">Make a Wish</div>
         <ul class="nav-links">
             <li><a href="/" class="nav-link">Home</a></li>
-            <li><a href="/minhas-listas/" class="nav-link">Minhas Listas</a></li>
+            <li><a href="{% url 'login' %}" class="nav-link">Entrar</a></li>
             <li><a href="/criar-lista/" class="nav-link">Criar Lista</a></li>
             <li><a href="/about/" class="nav-link">Sobre</a></li>
         </ul>
@@ -45,29 +45,7 @@
 
 <!-- Features Section -->
 <section class="features">
-    <div class="feature-card fade-in">
-        <div class="feature-icon">📝</div>
-        <h3 class="feature-title">Adicione Itens</h3>
-        <p class="feature-description">
-            Adicione itens com nome, descrição, preço e categoria. Mantenha tudo organizado.
-        </p>
-    </div>
     
-    <div class="feature-card fade-in">
-        <div class="feature-icon">🎯</div>
-        <h3 class="feature-title">Defina Prioridades</h3>
-        <p class="feature-description">
-            Marque os itens mais importantes para você. Saiba o que você mais deseja.
-        </p>
-    </div>
-    
-    <div class="feature-card fade-in">
-        <div class="feature-icon">📱</div>
-        <h3 class="feature-title">Acesse em Qualquer Lugar</h3>
-        <p class="feature-description">
-            Sua lista disponível em todos os dispositivos. Sempre que você precisar.
-        </p>
-    </div>
 </section>
 
 <!-- Stats Section -->
